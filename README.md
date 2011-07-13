@@ -45,7 +45,7 @@ Because the `total` provided by XHRHttpRequest isn't always 100% accurate, an ad
 
 ## Supporting IE?
 
-In the future we've considered adding support for a flash-based fallback for our friend Internet Explorer ( at least until they releast version 19 and finally catch up ) though I'd be interested to know any thoughts people may have on that. Ideally this would include Rack middleware to handle processing files prior to form submission, and then "re-attach" those files back to the resulting form submission. Suggestions are very welcome!
+In the future we've considered adding support for a flash-based fallback for our friend Internet Explorer ( at least until they release version 19 and finally catch up with the rest of the world (maybe) ) though I'd be interested to know any thoughts people may have on that. Ideally this would include Rack middleware to handle processing files prior to form submission, and then "re-attach" those files back to the resulting form submission. Suggestions are very welcome!
 
 ## Contributing
 
