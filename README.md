@@ -32,7 +32,9 @@ To utilize progress events in your form, bind the `progress` event.
 The progress event is populated with 3 values for tracking submission progress:
 
 `loaded`: The bytes currently completed
+
 `total`: The total number of bytes in the request. ( note, this is a approximate (though fairly accurate) number provided by XHRHttpRequest, see below for getting more accurate totals )
+
 `percent`: An integer representing the percent complete ( for convenience really )
 
 Because the `total` provided by XHRHttpRequest isn't always 100% accurate, an additional event `ajax:upload:start` is provided which passes the total bytes of all attached files from their native File objects.
@@ -53,7 +55,8 @@ File uploading still sucks, mostly due to shoddy browser support (cough... IE), 
 
 ### Copyright
 
-Copyright (c) 2011 Brent Kirby / Kurb Media LLC. Licensed under the MIT license. Do whatever you want with it, just give me a shout if you do something cool k? :)
+Copyright (c) 2011 Brent Kirby / Kurb Media LLC. Licensed under the MIT license. 
+Do whatever you want with it, just give me a shout if you do something cool k? :)
 
 
 
