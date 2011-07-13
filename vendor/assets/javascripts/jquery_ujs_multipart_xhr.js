@@ -153,9 +153,6 @@
 			.bind('ajax:aborted:file', handle_files)
 			.live('ajax:aborted:file', handle_files);
 	});
-	
-	$(document).ajaxError(function( event, xhr, error ){
-		console.log(error, xhr, event);
-	});
+
 	
 })( jQuery );
