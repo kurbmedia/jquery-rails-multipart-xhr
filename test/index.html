@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Jasmine Spec Runner</title>
+	<link rel="stylesheet" type="text/css" href="libs/jasmine.css">
+	<script src="libs/jquery-1.7.2.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="libs/jasmine.js"></script>
+	<script type="text/javascript" src="libs/jasmine-html.js"></script>
+	<script type="text/javascript" src="libs/jasmine-jquery.js"></script>
+	<script type="text/javascript" src="libs/rails.js"></script>
+	<script type="text/javascript" src="../vendor/assets/javascripts/jquery_ujs_multipart_xhr.js"></script>
+	<!-- include spec files here... -->
+	<script type="text/javascript" src="spec_helper.js"></script>
+	<script type="text/javascript" src="xhr_spec.js"></script>
+	<script type="text/javascript" src="rails_ext_spec.js"></script>
+	<script type="text/javascript" charset="utf-8">
+	//<![CDATA[
+		(function() {
+			var jasmineEnv = jasmine.getEnv();
+			jasmineEnv.updateInterval = 1000;
+
+			var htmlReporter = new jasmine.HtmlReporter();
+			jasmineEnv.addReporter(htmlReporter);
+			jasmineEnv.specFilter = function(spec) {
+				return htmlReporter.specFilter(spec);
+			};
+
+			var currentWindowOnload = window.onload;
+
+			window.onload = function() {
+				if (currentWindowOnload) {
+					currentWindowOnload();
+				}
+				execJasmine();
+			};
+
+			function execJasmine() {
+				jasmineEnv.execute();
+			}
+
+		})();
+	//]]>
+	</script>
+</head>
+
+<body>
+	<form id="upload_form" method="post" data-remote="true" action="sendfile.html">
+		<input name="text1" value="" />
+		<input type="hidden" name="_method" value="post" />
+		<input type="file" name="testfile" />
+		<input type="submit" name="submit" value="Submit" />
+	</form>
+	<form id="upload_form2" method="post" data-remote="true" action="sendfile.html">
+		<input name="text2" value="" />
+		<input type="file" name="testfile2" />
+		<input type="hidden" name="_method" value="post" />
+		<input type="submit" name="submit" value="Submit" />
+	</form>
+</body>
+</html>

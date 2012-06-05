@@ -51,7 +51,8 @@ In the future we've considered adding support for a flash-based fallback for our
 
 ## Contributing
 
-File uploading still sucks, mostly due to shoddy browser support (cough... IE), so any suggestions, pull request, ideas, etc to help enhance the user experience are very welcome. As are bug reports etc of course!
+File uploading still sucks, mostly due to shoddy browser support (cough... IE), so any suggestions, pull request, ideas, etc to help enhance the user experience are very welcome. As are bug reports etc of course! 
+Brownie points if you have suggestions for testing the submit/event functionality in Jasmine :)  Since we're relying on a filled in file input, its kind of a problem.
 
 ### Copyright
 

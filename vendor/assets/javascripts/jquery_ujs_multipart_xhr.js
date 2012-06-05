@@ -33,7 +33,7 @@
 (function( jQuery ){
 	
 	var originalXHR = jQuery.ajaxSettings.xhr,
-		rails = jQuery.rails;
+			rails = jQuery.rails;
 	
 	
 	jQuery.extend(rails, {
@@ -59,12 +59,12 @@
 		buildMultipartPost: function( form ) {
 			var data = new FormData(), 
 				post = jQuery(form).serializeArray(), 
-				totalSize = 0;
-				
+				totalSize = 0;	
 			jQuery.each( post, 
 				function( ind, obj ){			
 					data.append( obj.name, obj.value );
 				});		
+
 			jQuery(":file", form).each(
 				function(){
 					var field = jQuery(this),
@@ -79,7 +79,7 @@
 		
 		handleRemoteUpload: function( form, options ){
 			var data = rails.buildMultipartPost( form );
-			options.contentType = false;
+			options.contentType = 'multipart/form-data';
 			options.processData = false;			
 			options.data        = data[0];
 			options.context     = form;
@@ -113,13 +113,15 @@
 	}
 		
 	
-	function handle_files( event, inputs ){		
-		var form = jQuery(this);		
+	function handle_files( form ){
+		var oajax = rails.ajax;
+		
 		if( rails.enableXHRUpload ){
 			rails.ajax = function( options ){ 
 				rails.handleRemoteUpload( jQuery(form), options ); 
 			};
 			rails.handleRemote( form );
+			rails.ajax = oajax;
 			return false;
 		}		
 		return true;
@@ -128,30 +130,30 @@
 	
 	// Setup AJAX to support progress callbacks.
 	jQuery.ajaxSetup({
-        progress: function(){},
-        xhr: function() {
-            var nReq = originalXHR(), that = this;
-            if( nReq ){	
+		progress: function(){},
+		xhr: function() {
+			var nReq = originalXHR(), that = this;
+			if( nReq ){	
 				if( typeof nReq.onprogress != 'undefined' ){					
 					nReq.onprogress = function( event ){
 						progressHandler.apply(that, [event, nReq]);
 					};					
+					
 					if( typeof nReq.upload != 'undefined' ){
 						nReq.upload.onprogress = function( event ){
 							progressHandler.apply(that, [event, nReq]);
 						};
 					}
 				}
-            }
-            return nReq;
-        }
-    });
+			}
+			return nReq;
+		}
+	});
 	
 	
-	jQuery(function(){
-		jQuery(jQuery.rails.formSubmitSelector)
-			.bind('ajax:aborted:file', handle_files)
-			.live('ajax:aborted:file', handle_files);
+	$(document).delegate(rails.formSubmitSelector, 'ajax:aborted:file', function(event) {
+		if (this == event.target) 
+		return handle_files($(this));
 	});
 
 	
