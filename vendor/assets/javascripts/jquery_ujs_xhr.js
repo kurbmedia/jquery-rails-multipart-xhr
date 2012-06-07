@@ -1,0 +1,1 @@
+//= require ./jquery_ujs_multipart_xhr

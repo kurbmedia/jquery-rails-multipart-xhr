@@ -1,5 +1,5 @@
 /**
- * Unobtrusive scripting adapter for jQuery
+ * XHR uploading for the Rails jQuery Adapter
  *
  * Tested with jQuery 1.6.0 or later.
  * https://github.com/kurbmedia/jquery-rails-multipart-xhr
@@ -30,13 +30,13 @@
  *
  *
 **/
-(function( jQuery ){
+(function( $, undefined ){
 	
-	var originalXHR = jQuery.ajaxSettings.xhr,
-			rails = jQuery.rails;
+	var jxhr  = $.ajaxSettings.xhr,
+			rails = $.rails;
 	
 	
-	jQuery.extend(rails, {
+	$.extend(rails, {
 		
 		// Enable / disable ajax file uploading.
 		enableXHRUpload: true,
@@ -56,35 +56,46 @@
 			return 'files' in input;
 		},
 		
+		//
+		// Builds a multipart form post using FormData instead of
+		// simply serializing the array.
+		//
 		buildMultipartPost: function( form ) {
 			var data = new FormData(), 
-				post = jQuery(form).serializeArray(), 
-				totalSize = 0;	
-			jQuery.each( post, 
-				function( ind, obj ){			
+					post = $(form).serializeArray(), 
+					totalSize = 0;
+					
+			$.each( post, 
+				function( ind, obj ){
 					data.append( obj.name, obj.value );
 				});		
 
-			jQuery(":file", form).each(
+			$(":file", form).each(
 				function(){
-					var field = jQuery(this),
-						node  = field.get(0);
+					var field = $(this),
+							node  = field.get(0);
+							
 					if( node.files[0] ){
 						data.append( field.attr("name"), node.files[0] );
 						totalSize = totalSize + node.files[0].fileSize;
 					}
-				});		
+					
+				});
+				
 			return [data, totalSize];
 		},
 		
+		//
+		// Actual upload handler
+		//
 		handleRemoteUpload: function( form, options ){
 			var data = rails.buildMultipartPost( form );
-			options.contentType = 'multipart/form-data';
-			options.processData = false;			
+			options.contentType = false;
+			options.processData = false;
 			options.data        = data[0];
 			options.context     = form;
 			rails.fire( form, 'ajax:upload:start', [ data[1] ] );
-			return jQuery.ajax( options );
+			return $.ajax( options );
 		}
 		
 	});
@@ -101,15 +112,15 @@
 	}
 	
 	function progressHandler( event, req ){
-		var attrs;								
+		var attrs;
 		if( event.lengthComputable ){
 			attrs = calculateProgress( event );
 		}else{
 			attrs = { loaded: null, total: null, percent: null };
 		}		
 		
-		jQuery.event.trigger( jQuery.Event('progress', attrs), [ req ] );
-        this.progress( jQuery.Event('progress', attrs), req );
+		$.event.trigger( $.Event('progress', attrs), [ req ] );
+		this.progress( $.Event('progress', attrs), req );
 	}
 		
 	
@@ -118,7 +129,7 @@
 		
 		if( rails.enableXHRUpload ){
 			rails.ajax = function( options ){ 
-				rails.handleRemoteUpload( jQuery(form), options ); 
+				rails.handleRemoteUpload( $(form), options ); 
 			};
 			rails.handleRemote( form );
 			rails.ajax = oajax;
@@ -129,12 +140,13 @@
 	
 	
 	// Setup AJAX to support progress callbacks.
-	jQuery.ajaxSetup({
+	
+	$.ajaxSetup({
 		progress: function(){},
 		xhr: function() {
-			var nReq = originalXHR(), that = this;
+			var nReq = jxhr(), that = this;
 			if( nReq ){	
-				if( typeof nReq.onprogress != 'undefined' ){					
+				if( typeof nReq.onprogress != 'undefined' ){
 					nReq.onprogress = function( event ){
 						progressHandler.apply(that, [event, nReq]);
 					};					

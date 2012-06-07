@@ -1,0 +1,393 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-06-07 19:39:14 -0400
+Served asset /rails.png - 200 OK (7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 19:43:34 -0400
+Processing by IndexController#index as HTML
+  Rendered index/index.html.erb within layouts/application (11.3ms)
+Compiled application.css  (0ms)  (pid 43097)
+Compiled jquery.js  (2ms)  (pid 43097)
+Compiled jquery_ujs.js  (0ms)  (pid 43097)
+Compiled jquery_ujs_multipart_xhr.js  (0ms)  (pid 43097)
+Compiled jquery_ujs_xhr.js  (22ms)  (pid 43097)
+Compiled application.js  (87ms)  (pid 43097)
+Completed 200 OK in 176ms (Views: 175.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 19:43:35 -0400
+Served asset /jquery.js - 200 OK (13ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 19:43:35 -0400
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 19:43:35 -0400
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs_multipart_xhr.js?body=1" for 127.0.0.1 at 2012-06-07 19:43:35 -0400
+Served asset /jquery_ujs_multipart_xhr.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs_xhr.js?body=1" for 127.0.0.1 at 2012-06-07 19:43:35 -0400
+Served asset /jquery_ujs_xhr.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 19:43:35 -0400
+Served asset /application.js - 200 OK (34ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 19:43:44 -0400
+Processing by IndexController#index as HTML
+  Rendered index/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 18ms (Views: 17.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 19:43:44 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 19:43:44 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 19:43:44 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs_xhr.js?body=1" for 127.0.0.1 at 2012-06-07 19:43:44 -0400
+Served asset /jquery_ujs_xhr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 19:43:44 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs_multipart_xhr.js?body=1" for 127.0.0.1 at 2012-06-07 19:43:44 -0400
+Served asset /jquery_ujs_multipart_xhr.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 19:43:57 -0400
+Processing by IndexController#index as HTML
+  Rendered index/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 19:43:57 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 19:43:57 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs_multipart_xhr.js?body=1" for 127.0.0.1 at 2012-06-07 19:43:57 -0400
+Served asset /jquery_ujs_multipart_xhr.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs_xhr.js?body=1" for 127.0.0.1 at 2012-06-07 19:43:57 -0400
+Served asset /jquery_ujs_xhr.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 19:43:57 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 19:43:57 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 19:44:40 -0400
+Processing by IndexController#index as HTML
+  Rendered index/index.html.erb within layouts/application (1.9ms)
+Compiled jquery_ujs_multipart_xhr.js  (0ms)  (pid 43097)
+Compiled jquery_ujs_xhr.js  (1ms)  (pid 43097)
+Compiled application.js  (3ms)  (pid 43097)
+Completed 200 OK in 67ms (Views: 66.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 19:44:40 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 19:44:40 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 19:44:40 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs_multipart_xhr.js?body=1" for 127.0.0.1 at 2012-06-07 19:44:40 -0400
+Served asset /jquery_ujs_multipart_xhr.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs_xhr.js?body=1" for 127.0.0.1 at 2012-06-07 19:44:40 -0400
+Served asset /jquery_ujs_xhr.js - 200 OK (8ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 19:44:40 -0400
+Served asset /application.js - 200 OK (13ms)
+
+
+Started POST "/upload" for 127.0.0.1 at 2012-06-07 19:44:44 -0400
+
+AbstractController::ActionNotFound (The action 'upload' could not be found for IndexController):
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/abstract_controller/base.rb:116:in `process'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/abstract_controller/rendering.rb:45:in `process'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_controller/metal.rb:203:in `dispatch'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_controller/metal.rb:246:in `block in action'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/routing/route_set.rb:73:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/routing/route_set.rb:36:in `call'
+  vendor/bundle/ruby/1.9.1/gems/journey-1.0.3/lib/journey/router.rb:68:in `block in call'
+  vendor/bundle/ruby/1.9.1/gems/journey-1.0.3/lib/journey/router.rb:56:in `each'
+  vendor/bundle/ruby/1.9.1/gems/journey-1.0.3/lib/journey/router.rb:56:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/routing/route_set.rb:600:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/conditionalget.rb:35:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/head.rb:14:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/flash.rb:238:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.5/lib/active_support/callbacks.rb:405:in `_run__2288157862530898751__call__3975846280495765652__callbacks'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.5/lib/active_support/callbacks.rb:405:in `__run_callback'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.5/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.5/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.5/lib/rails/rack/logger.rb:26:in `call_app'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.5/lib/rails/rack/logger.rb:16:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.5/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/static.rb:62:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.5/lib/rails/engine.rb:479:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.5/lib/rails/application.rb:220:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.5/lib/rails/rack/log_tailer.rb:17:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+  /Users/brent/.rbenv/versions/1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/brent/.rbenv/versions/1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/brent/.rbenv/versions/1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 19:50:39 -0400
+Processing by IndexController#index as HTML
+  Rendered index/index.html.erb within layouts/application (1.8ms)
+Compiled jquery_ujs_multipart_xhr.js  (0ms)  (pid 43097)
+Compiled jquery_ujs_xhr.js  (0ms)  (pid 43097)
+Compiled application.js  (3ms)  (pid 43097)
+Completed 200 OK in 68ms (Views: 68.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 19:50:40 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 19:50:40 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs_multipart_xhr.js?body=1" for 127.0.0.1 at 2012-06-07 19:50:40 -0400
+Served asset /jquery_ujs_multipart_xhr.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs_xhr.js?body=1" for 127.0.0.1 at 2012-06-07 19:50:40 -0400
+Served asset /jquery_ujs_xhr.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 19:50:40 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 19:50:40 -0400
+Served asset /application.js - 200 OK (23ms)
+
+
+Started POST "/upload" for 127.0.0.1 at 2012-06-07 19:50:44 -0400
+Processing by IndexController#upload as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WCyIEMVBFucBkhS4/Y8nJrn9zhvrgUPgvSjW8xYsFxc=", "file"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x007fe2d4867978 @original_filename="bugle_corps.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file[file]\"; filename=\"bugle_corps.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/xp/495v_7w96n1cwxgjbcfnh0sw0000gn/T/RackMultipart20120607-43097-1fj2o6q>>}}
+Completed 500 Internal Server Error in 9ms
+
+ActionView::MissingTemplate (Missing template index/upload, application/upload with {:locale=>[:en], :formats=>[:js, "application/ecmascript", "application/x-ecmascript", :html, :text, :js, :css, :ics, :csv, :png, :jpeg, :gif, :bmp, :tiff, :mpeg, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip], :handlers=>[:erb, :builder]}. Searched in:
+  * "/_Work/gems/jquery-rails-multipart-xhr/test/test_app/app/views"
+):
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_view/path_set.rb:58:in `find'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_view/lookup_context.rb:109:in `find'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_view/renderer/template_renderer.rb:10:in `render'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_view/renderer/renderer.rb:36:in `render_template'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_view/renderer/renderer.rb:17:in `render'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/abstract_controller/rendering.rb:110:in `_render_template'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/abstract_controller/rendering.rb:88:in `render'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_controller/metal/rendering.rb:16:in `render'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.5/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/brent/.rbenv/versions/1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.5/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_controller/metal/instrumentation.rb:39:in `render'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/abstract_controller/base.rb:167:in `process_action'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.5/lib/active_support/callbacks.rb:414:in `_run__2006973330682710213__process_action__2629083299075195413__callbacks'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.5/lib/active_support/callbacks.rb:405:in `__run_callback'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.5/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.5/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.5/lib/active_support/notifications.rb:123:in `block in instrument'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.5/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.5/lib/active_support/notifications.rb:123:in `instrument'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_controller/metal/params_wrapper.rb:206:in `process_action'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/abstract_controller/base.rb:121:in `process'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/abstract_controller/rendering.rb:45:in `process'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_controller/metal.rb:203:in `dispatch'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_controller/metal.rb:246:in `block in action'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/routing/route_set.rb:73:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/routing/route_set.rb:36:in `call'
+  vendor/bundle/ruby/1.9.1/gems/journey-1.0.3/lib/journey/router.rb:68:in `block in call'
+  vendor/bundle/ruby/1.9.1/gems/journey-1.0.3/lib/journey/router.rb:56:in `each'
+  vendor/bundle/ruby/1.9.1/gems/journey-1.0.3/lib/journey/router.rb:56:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/routing/route_set.rb:600:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/conditionalget.rb:35:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/head.rb:14:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/flash.rb:238:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.5/lib/active_support/callbacks.rb:405:in `_run__2288157862530898751__call__3975846280495765652__callbacks'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.5/lib/active_support/callbacks.rb:405:in `__run_callback'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.5/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.5/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.5/lib/rails/rack/logger.rb:26:in `call_app'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.5/lib/rails/rack/logger.rb:16:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/ruby/1.9.1/gems/activesupport-3.2.5/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+  vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/static.rb:62:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.5/lib/rails/engine.rb:479:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.5/lib/rails/application.rb:220:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/ruby/1.9.1/gems/railties-3.2.5/lib/rails/rack/log_tailer.rb:17:in `call'
+  vendor/bundle/ruby/1.9.1/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+  /Users/brent/.rbenv/versions/1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/brent/.rbenv/versions/1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/brent/.rbenv/versions/1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/1.9.1/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started POST "/upload" for 127.0.0.1 at 2012-06-07 19:51:31 -0400
+Processing by IndexController#upload as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WCyIEMVBFucBkhS4/Y8nJrn9zhvrgUPgvSjW8xYsFxc=", "file"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x007fe2d2a1f3f8 @original_filename="bugle_corps.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file[file]\"; filename=\"bugle_corps.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/xp/495v_7w96n1cwxgjbcfnh0sw0000gn/T/RackMultipart20120607-43097-kd4yfy>>}}
+  Rendered index/upload.js.erb (0.3ms)
+Completed 200 OK in 4ms (Views: 2.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 19:51:57 -0400
+Processing by IndexController#index as HTML
+  Rendered index/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 7.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 19:51:57 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 19:51:57 -0400
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs_multipart_xhr.js?body=1" for 127.0.0.1 at 2012-06-07 19:51:57 -0400
+Served asset /jquery_ujs_multipart_xhr.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 19:51:57 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs_xhr.js?body=1" for 127.0.0.1 at 2012-06-07 19:51:57 -0400
+Served asset /jquery_ujs_xhr.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 19:51:57 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started POST "/upload" for 127.0.0.1 at 2012-06-07 19:52:01 -0400
+Processing by IndexController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WCyIEMVBFucBkhS4/Y8nJrn9zhvrgUPgvSjW8xYsFxc=", "file"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x007fe2d48690e8 @original_filename="bugler.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file[file]\"; filename=\"bugler.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/xp/495v_7w96n1cwxgjbcfnh0sw0000gn/T/RackMultipart20120607-43097-1fmqdww>>}, "commit"=>"Save File"}
+Redirected to http://localhost:3001/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-07 19:52:01 -0400
+Processing by IndexController#index as HTML
+  Rendered index/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-07 19:52:01 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-07 19:52:01 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-07 19:52:01 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs_xhr.js?body=1" for 127.0.0.1 at 2012-06-07 19:52:01 -0400
+Served asset /jquery_ujs_xhr.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs_multipart_xhr.js?body=1" for 127.0.0.1 at 2012-06-07 19:52:01 -0400
+Served asset /jquery_ujs_multipart_xhr.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-07 19:52:01 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
