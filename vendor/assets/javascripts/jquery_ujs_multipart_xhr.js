@@ -32,11 +32,10 @@
 **/
 (function( $, undefined ){
 	
-	var jxhr  = $.ajaxSettings.xhr,
-			rails = $.rails;
+	var jxhr  = $.ajaxSettings.xhr;
 	
 	
-	$.extend(rails, {
+	$.extend($.rails, {
 		
 		// Enable / disable ajax file uploading.
 		enableXHRUpload: true,
@@ -89,20 +88,20 @@
 		// Actual upload handler
 		//
 		handleRemoteUpload: function( form, options ){
-			var data = rails.buildMultipartPost( form );
+			var data = $.rails.buildMultipartPost( form );
 			options.contentType = false;
 			options.processData = false;
 			options.data        = data[0];
 			options.context     = form;
-			rails.fire( form, 'ajax:upload:start', [ data[1] ] );
+			$.rails.fire( form, 'ajax:upload:start', [ data[1] ] );
 			return $.ajax( options );
 		}
 		
 	});
 	
 	// Explicitly disable XHR uploading if the browser doesn't support it.
-	if( !rails.XHRUploadSupport() && !rails.fileApiSupport() ){
-		rails.enableXHRUpload = false;
+	if( !$.rails.XHRUploadSupport() && !$.rails.fileApiSupport() ){
+		$.rails.enableXHRUpload = false;
 	}
 	
 	// Recieves a progress event and returns an object representing the progress of the upload.
@@ -125,14 +124,18 @@
 		
 	
 	function handle_files( form ){
-		var oajax = rails.ajax;
+		var oajax = $.rails.ajax;
 		
-		if( rails.enableXHRUpload ){
-			rails.ajax = function( options ){ 
-				rails.handleRemoteUpload( $(form), options ); 
+		if( $.rails.enableXHRUpload === true ){
+			$.rails.ajax = function( options ){ 
+				$.rails.handleRemoteUpload( $(form), options ); 
 			};
-			rails.handleRemote( form );
-			rails.ajax = oajax;
+			
+			form.one('ajax:complete', 
+				function(xhr, status){
+					$.rails.ajax = oajax;
+				});
+				
 			return false;
 		}		
 		return true;
@@ -163,7 +166,7 @@
 	});
 	
 	
-	$(document).delegate(rails.formSubmitSelector, 'ajax:aborted:file', function(event) {
+	$(document).delegate($.rails.formSubmitSelector, 'ajax:aborted:file', function(event) {
 		if (this == event.target) 
 		return handle_files($(this));
 	});
